@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Cgjq9QPqD4=",
+  "dgSpecHash": "eCRi0n7JkOs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\Exercice1.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\toto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.codecoverage\\18.0.0\\microsoft.codecoverage.18.0.0.nupkg.sha512",

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercice1
+namespace Exercices
 {
     public class GradingCalculator
     {

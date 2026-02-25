@@ -1075,14 +1075,14 @@
           }
         }
       },
-      "Exercice1/1.0.0": {
+      "Exercices/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/Exercice1.dll": {}
+          "bin/placeholder/Exercices.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Exercice1.dll": {}
+          "bin/placeholder/Exercices.dll": {}
         }
       }
     }
@@ -2278,15 +2278,15 @@
         "packageIcon.png"
       ]
     },
-    "Exercice1/1.0.0": {
+    "Exercices/1.0.0": {
       "type": "project",
-      "path": "../ExercicesTDD/Exercice1.csproj",
-      "msbuildProject": "../ExercicesTDD/Exercice1.csproj"
+      "path": "../ExercicesTDD/Exercices.csproj",
+      "msbuildProject": "../ExercicesTDD/Exercices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Exercice1 >= 1.0.0",
+      "Exercices >= 1.0.0",
       "MSTest >= 4.0.1"
     ]
   },
@@ -2297,9 +2297,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\Exercice1.Tests.csproj",
-      "projectName": "Exercice1.Tests",
-      "projectPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\Exercice1.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\toto.csproj",
+      "projectName": "toto",
+      "projectPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\toto.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\obj\\",
       "projectStyle": "PackageReference",
@@ -2322,8 +2322,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\Exercice1.csproj": {
-              "projectPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\Exercice1.csproj"
+            "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\Exercices.csproj": {
+              "projectPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\Exercices.csproj"
             }
           }
         }
