@@ -12,3 +12,4 @@ C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBa
 C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD\obj\Debug\net10.0\DemoBasesTDD.pdb
 C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD\obj\Debug\net10.0\DemoBasesTDD.genruntimeconfig.cache
 C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD\obj\Debug\net10.0\ref\DemoBasesTDD.dll
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD\obj\Debug\net10.0\DemoBasesTDD.sourcelink.json

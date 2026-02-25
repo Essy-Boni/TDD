@@ -273,3 +273,4 @@ C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBa
 C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD.Tests\obj\Debug\net10.0\DemoBasesTDD.Tests.pdb
 C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD.Tests\obj\Debug\net10.0\DemoBasesTDD.Tests.genruntimeconfig.cache
 C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD.Tests\obj\Debug\net10.0\ref\DemoBasesTDD.Tests.dll
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\DemoBasesTDD\DemoBasesTDD.Tests\obj\Debug\net10.0\DemoBasesTDD.Tests.sourcelink.json

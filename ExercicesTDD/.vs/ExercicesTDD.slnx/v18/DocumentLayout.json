@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D83648-0CF8-2886-2579-C6377FB17393}|ExercicesTDD\\Exercice1.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercicestdd\\gradingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D83648-0CF8-2886-2579-C6377FB17393}|ExercicesTDD\\Exercice1.csproj|solutionrelative:exercicestdd\\gradingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{948EEAF7-6F01-DF3E-F365-15932E9F5146}|Exercice1.Tests\\Exercice1.Tests.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercice1.tests\\gradingcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{948EEAF7-6F01-DF3E-F365-15932E9F5146}|Exercice1.Tests\\Exercice1.Tests.csproj|solutionrelative:exercice1.tests\\gradingcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GradingCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\GradingCalculator.cs",
+              "RelativeDocumentMoniker": "ExercicesTDD\\GradingCalculator.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\GradingCalculator.cs",
+              "RelativeToolTip": "ExercicesTDD\\GradingCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:35:49.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GradingCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\GradingCalculatorTests.cs",
+              "RelativeDocumentMoniker": "Exercice1.Tests\\GradingCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercice1.Tests\\GradingCalculatorTests.cs",
+              "RelativeToolTip": "Exercice1.Tests\\GradingCalculatorTests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:17:22.418Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
