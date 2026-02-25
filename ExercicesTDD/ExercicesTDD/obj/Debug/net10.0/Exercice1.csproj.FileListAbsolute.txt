@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\bin\Debug\net10.0\Exercice1.exe
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\bin\Debug\net10.0\Exercice1.deps.json
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\bin\Debug\net10.0\Exercice1.runtimeconfig.json
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\bin\Debug\net10.0\Exercice1.dll
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\bin\Debug\net10.0\Exercice1.pdb
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.sourcelink.json
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.dll
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\refint\Exercice1.dll
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.pdb
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\Exercice1.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\OneDrive\Formation M2i\TDD\ExercicesTDD\ExercicesTDD\obj\Debug\net10.0\ref\Exercice1.dll
