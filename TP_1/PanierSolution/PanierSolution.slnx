@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Panier.ConsoleApp/Panier.ConsoleApp.csproj" Id="8d5e271b-35c5-4df9-818c-d20966fe4f9a" />
+  <Project Path="Panier.Core/Panier.Core.csproj" Id="b8032a5d-e0da-4c32-8ceb-0ccbd7b6f6b5" />
+  <Project Path="Panier.Tests/Panier.Tests.csproj" Id="182687f0-a7d0-4f78-a2e3-34df61bed328" />
+</Solution>
