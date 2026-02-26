@@ -9,7 +9,7 @@ public class RechercherVilleTests
     public void WhenRechercherVille_lessthan2char_ThenNotFoundException()
     {
         var service = new RechercherVille();
-        service.Rechercher("P");
+        Assert.Throws<NotFoundException>(() => service.Rechercher("P"));
     }
 
     [TestMethod]
@@ -20,5 +20,15 @@ public class RechercherVilleTests
 
         CollectionAssert.AreEqual(new List<string> { "Valence", "Vancouver" }, result);
     }
+
+    [TestMethod]
+    public void WhenRechercherVille_Ape_ThenBudapest()
+    {
+        var service = new RechercherVille();
+        var result = service.Rechercher("ape");
+
+        CollectionAssert.AreEqual(new List<string> { "Budapest" }, result);
+    }
+
 
 }

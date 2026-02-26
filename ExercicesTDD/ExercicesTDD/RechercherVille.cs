@@ -34,9 +34,15 @@ namespace Exercices
             //    .ToList();
 
             //Green 3 : La fonctionnalité de recherche doit être insensible à la casse
+            //return _villes
+            //.Where(v => v.StartsWith(mot, StringComparison.OrdinalIgnoreCase))
+            //.ToList();
+
+            //Green 4 : La fonctionnalité de recherche devrait également fonctionner lorsque le texte de recherche n'est qu'une partie d'un nom de ville
             return _villes
-            .Where(v => v.StartsWith(mot, StringComparison.OrdinalIgnoreCase))
+            .Where(v => v.StartsWith(mot, StringComparison.OrdinalIgnoreCase)|| v.IndexOf(mot, StringComparison.OrdinalIgnoreCase) >= 0)
             .ToList();
+
 
         }
 
@@ -44,7 +50,5 @@ namespace Exercices
 }
 
 
-//
-//Green 4 : La fonctionnalité de recherche devrait également fonctionner lorsque le texte de recherche n'est qu'une partie d'un nom de ville
 
 //Green 5 : Si le texte de recherche est un « * » (astérisque), il doit renvoyer tous les noms de ville.
