@@ -165,7 +165,8 @@ public class ShoppingCartTests
     #endregion
 
     //Bonus 1
-    [TestMethod]
+    [TestMethod] // Nom unique : même nom avec prix différent interdit
+
     public void WhenAddItem_SameNameDifferentPrice_ThenExceptionAndCartIntact()
     {
         var cart = new ShoppingCart();
@@ -177,6 +178,42 @@ public class ShoppingCartTests
         Assert.AreEqual(1.0m, cart.GetTotal());
     }
 
+    //Bonus 2
+    [TestMethod] // total à 999.00 puis ajout de 2.00 → exception
+    public void WhenAddItem_TotalMoreThan1000_ThenExceptonAndCartIntact()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 999.00m, 1);
+
+        Assert.Throws<InvalidOperationException>(() => cart.AddItem("Applepie", 2.00m, 1));
+
+        Assert.AreEqual(1, cart.GetItemCount());
+        Assert.AreEqual(999.00m, cart.GetTotal());
+    }
+
+    [TestMethod] // ajout qui amène exactement à 1000.00 → OK
+    public void WhenAddItem_TotalExactly1000_ThenGetTotal()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 999.00m, 1);
+
+        cart.AddItem("Applepie", 1.00m, 1);
+
+        Assert.AreEqual(2, cart.GetItemCount());
+        Assert.AreEqual(1000.00m, cart.GetTotal());
+    }
+
+    [TestMethod] // panier inchangé après exception
+    public void WhenAddItem_TotalMoreThan1000WithQty_ThenExceptionAndCartIntact()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 998.00m, 1); 
+
+        Assert.Throws<InvalidOperationException>(() => cart.AddItem("Applepie", 1.50m, 2));
+
+        Assert.AreEqual(1, cart.GetItemCount());
+        Assert.AreEqual(998.00m, cart.GetTotal());
+    }
 }
 
 
