@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0034797E-B4BC-4227-9E7B-8F30B6E21A2D}|Demo2TDD.Core\\Demo2TDD.Core.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\demobasestdd\\demo2tdd.core\\leaptester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0034797E-B4BC-4227-9E7B-8F30B6E21A2D}|Demo2TDD.Core\\Demo2TDD.Core.csproj|solutionrelative:demo2tdd.core\\leaptester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0034797E-B4BC-4227-9E7B-8F30B6E21A2D}|Demo2TDD.Core\\Demo2TDD.Core.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\demobasestdd\\demo2tdd.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0034797E-B4BC-4227-9E7B-8F30B6E21A2D}|Demo2TDD.Core\\Demo2TDD.Core.csproj|solutionrelative:demo2tdd.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBA0CE94-E9F3-3C66-65E5-AF41E5FBB446}|DemoBasesTDD.Tests\\DemoBasesTDD.Tests.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\demobasestdd\\demobasestdd.tests\\calcultest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBA0CE94-E9F3-3C66-65E5-AF41E5FBB446}|DemoBasesTDD.Tests\\DemoBasesTDD.Tests.csproj|solutionrelative:demobasestdd.tests\\calcultest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +38,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeapTester.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\Demo2TDD.Core\\LeapTester.cs",
+              "RelativeDocumentMoniker": "Demo2TDD.Core\\LeapTester.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\Demo2TDD.Core\\LeapTester.cs*",
+              "RelativeToolTip": "Demo2TDD.Core\\LeapTester.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T08:41:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\Demo2TDD.Core\\Program.cs",
+              "RelativeDocumentMoniker": "Demo2TDD.Core\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\Demo2TDD.Core\\Program.cs",
+              "RelativeToolTip": "Demo2TDD.Core\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T08:40:45.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Calcul.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\DemoBasesTDD\\Calcul.cs",
               "RelativeDocumentMoniker": "DemoBasesTDD\\Calcul.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "DemoBasesTDD\\Calcul.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T10:18:49.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T10:18:49.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\DemoBasesTDD\\Program.cs",
               "RelativeDocumentMoniker": "DemoBasesTDD\\Program.cs",
@@ -55,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CalculTest.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\DemoBasesTDD\\DemoBasesTDD.Tests\\CalculTest.cs",
               "RelativeDocumentMoniker": "DemoBasesTDD.Tests\\CalculTest.cs",

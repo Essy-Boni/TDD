@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD0F8B0F-B536-1C7C-7D0F-AFCF35BAFA75}|Exercices.Tests\\Exercices.Tests.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercices.tests\\fibtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0F8B0F-B536-1C7C-7D0F-AFCF35BAFA75}|Exercices.Tests\\Exercices.Tests.csproj|solutionrelative:exercices.tests\\fibtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03A3DE94-CE76-E99D-5210-F7A3B974579F}|ExercicesTDD\\Exercices.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercicestdd\\rechercherville.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A3DE94-CE76-E99D-5210-F7A3B974579F}|ExercicesTDD\\Exercices.csproj|solutionrelative:exercicestdd\\rechercherville.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FibTest.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercices.Tests\\FibTest.cs",
-              "RelativeDocumentMoniker": "Exercices.Tests\\FibTest.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercices.Tests\\FibTest.cs",
-              "RelativeToolTip": "Exercices.Tests\\FibTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Title": "RechercherVille.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\RechercherVille.cs",
+              "RelativeDocumentMoniker": "ExercicesTDD\\RechercherVille.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\RechercherVille.cs",
+              "RelativeToolTip": "ExercicesTDD\\RechercherVille.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T15:47:50.566Z",
+              "WhenOpened": "2026-02-26T09:24:24.952Z",
               "EditorCaption": ""
             }
           ]
