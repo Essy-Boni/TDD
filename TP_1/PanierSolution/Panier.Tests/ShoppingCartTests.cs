@@ -72,6 +72,29 @@ public class ShoppingCartTests
 
 
     // Étape 3 — Tests de calcul
+    #region 
+    [TestMethod] //Un article → total = price × quantity.
+    public void WhenAddItem_1Item_ThenTotalIsPriceTimesQty()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Kiwi", 2.00m, 3);
+
+        Assert.AreEqual(6.00m, cart.GetTotal());
+    }
+
+    [TestMethod] //Plusieurs articles → total = somme correcte.
+    public void WhenAddItem_MultipleItems_ThenTotalIsSumOfAllItems()
+    {
+        var cart = new ShoppingCart();
+
+        cart.AddItem("Kaki", 2.00m, 3);   
+        cart.AddItem("Banana", 1.50m, 2);    
+
+        Assert.AreEqual(9.00m, cart.GetTotal());
+    }
+
+    #endregion
+
     // Étape 4 — Tests de remise
 
 }
