@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD0F8B0F-B536-1C7C-7D0F-AFCF35BAFA75}|Exercices.Tests\\Exercices.Tests.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercices.tests\\recherchevilletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0F8B0F-B536-1C7C-7D0F-AFCF35BAFA75}|Exercices.Tests\\Exercices.Tests.csproj|solutionrelative:exercices.tests\\recherchevilletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03A3DE94-CE76-E99D-5210-F7A3B974579F}|ExercicesTDD\\Exercices.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercicestdd\\rechercherville.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A3DE94-CE76-E99D-5210-F7A3B974579F}|ExercicesTDD\\Exercices.csproj|solutionrelative:exercicestdd\\rechercherville.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD0F8B0F-B536-1C7C-7D0F-AFCF35BAFA75}|Exercices.Tests\\Exercices.Tests.csproj|c:\\users\\administrateur\\documents\\onedrive\\formation m2i\\tdd\\exercicestdd\\exercices.tests\\recherchervilletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0F8B0F-B536-1C7C-7D0F-AFCF35BAFA75}|Exercices.Tests\\Exercices.Tests.csproj|solutionrelative:exercices.tests\\recherchervilletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RechercheVilleTests.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercices.Tests\\RechercheVilleTests.cs",
-              "RelativeDocumentMoniker": "Exercices.Tests\\RechercheVilleTests.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercices.Tests\\RechercheVilleTests.cs",
-              "RelativeToolTip": "Exercices.Tests\\RechercheVilleTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "RechercherVilleTests.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercices.Tests\\RechercherVilleTests.cs",
+              "RelativeDocumentMoniker": "Exercices.Tests\\RechercherVilleTests.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\Exercices.Tests\\RechercherVilleTests.cs",
+              "RelativeToolTip": "Exercices.Tests\\RechercherVilleTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T09:55:14.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RechercherVille.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\RechercherVille.cs",
-              "RelativeDocumentMoniker": "ExercicesTDD\\RechercherVille.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\Documents\\OneDrive\\Formation M2i\\TDD\\ExercicesTDD\\ExercicesTDD\\RechercherVille.cs",
-              "RelativeToolTip": "ExercicesTDD\\RechercherVille.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T09:24:24.952Z",
               "EditorCaption": ""
             }
           ]
