@@ -30,5 +30,18 @@ public class RechercherVilleTests
         CollectionAssert.AreEqual(new List<string> { "Budapest" }, result);
     }
 
+    [TestMethod]
+    public void WhenRechercherVille_Asterisk_ThenReturnsAll()
+    {
+        var service = new RechercherVille();
+        var result = service.Rechercher("*");
+
+        CollectionAssert.AreEqual(new List<string>
+    {
+        "Paris", "Budapest", "Skopje", "Rotterdam", "Valence", "Vancouver",
+        "Amsterdam", "Vienne", "Sydney", "New York", "Londres", "Bangkok",
+        "Hong Kong", "Dubaï", "Rome", "Istanbul"
+    }, result);
+    }
 
 }
