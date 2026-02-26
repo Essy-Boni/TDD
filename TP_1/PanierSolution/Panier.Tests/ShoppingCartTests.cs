@@ -1,4 +1,6 @@
 using Panier.Core;
+using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Panier.Tests;
 
@@ -96,7 +98,72 @@ public class ShoppingCartTests
     #endregion
 
     // Étape 4 — Tests de remise
+    #region 
+        
+    [TestMethod] // Appliquer 10% réduit correctement le total.
+    public void WhenApplyDiscount_10Percent_ThenReducesTotal()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 10m, 1); 
 
+        cart.ApplyDiscount(10m);
+
+        Assert.AreEqual(9m, cart.GetTotal());
+    }
+
+    [TestMethod] // Appliquer 0% ne change rien.
+    public void WhenApplyDiscount_0Percent_ThenTotalIntact()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 10m, 1);
+
+        cart.ApplyDiscount(0m);
+
+        Assert.AreEqual(10m, cart.GetTotal());
+    }
+
+    
+    [TestMethod] // Appliquer 100% donne 0.
+    public void WhenApplyDiscount_100Percent_ThenTotalEqualZero()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 10m, 1);
+
+        cart.ApplyDiscount(100m);
+
+        Assert.AreEqual(0m, cart.GetTotal());
+    }
+
+    [TestMethod] // Remise négative → exception.
+    public void WhenApplyDiscount_NegativePercent_ThenException()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 10m, 1);
+
+        Assert.Throws<ArgumentOutOfRangeException>(() => cart.ApplyDiscount(-1m));
+    }
+
+    [TestMethod]
+    public void WhenApplyDiscount_MoreThan100_ThenException() // Remise > 100 → exception.
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 10m, 1);
+
+        Assert.Throws<ArgumentOutOfRangeException>(() => cart.ApplyDiscount(101m));
+    }
+
+    [TestMethod] // Appliquer une remise deux fois → exception.
+    public void WhenApplyDiscount_Twice_ThenException() 
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 10m, 1);
+
+        cart.ApplyDiscount(10m);
+
+        Assert.Throws<InvalidOperationException>(() => cart.ApplyDiscount(5m));
+    }
+
+    #endregion
 }
 
 
