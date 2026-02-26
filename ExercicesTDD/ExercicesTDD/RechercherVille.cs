@@ -6,12 +6,20 @@ namespace Exercices
 {
     public class RechercherVille
     {
-        private List<String> _villes = new List<string>
+
+
+        private static readonly List<string> DefaultVilles = new()
         {
-            "Paris", "Budapest", "Skopje", "Rotterdam", "Valence", "Vancouver",
-            "Amsterdam", "Vienne", "Sydney", "New York", "Londres", "Bangkok",
-            "Hong Kong", "Dubaï", "Rome", "Istanbul"
+            "Paris","Budapest","Skopje","Rotterdam","Valence","Vancouver",
+            "Amsterdam","Vienne","Sydney","New York","Londres","Bangkok",
+            "Hong Kong","Dubaï","Rome","Istanbul"
         };
+        private readonly List<String> _villes;
+        
+        public RechercherVille()
+        {
+            _villes = DefaultVilles;
+        }
 
         public class NotFoundException : Exception
         {
@@ -22,7 +30,11 @@ namespace Exercices
 
         {
             //INITIAL
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            //Green 5 : Si le texte de recherche est un « * » (astérisque), il doit renvoyer tous les noms de ville.
+            if (mot == "*")
+                return new List<string>(_villes);
 
             // Green 1 : Si le texte de la recherche contient moins de 2 caractères, ***Une exception est levée de type NotFoundException***.
             //if (mot.Length < 2)
@@ -39,14 +51,9 @@ namespace Exercices
             //.ToList();
 
             //Green 4 : La fonctionnalité de recherche devrait également fonctionner lorsque le texte de recherche n'est qu'une partie d'un nom de ville
-            //return _villes
-            //.Where(v => v.StartsWith(mot, StringComparison.OrdinalIgnoreCase)|| v.IndexOf(mot, StringComparison.OrdinalIgnoreCase) >= 0)
-            //.ToList();
-
-            //Green 5 : Si le texte de recherche est un « * » (astérisque), il doit renvoyer tous les noms de ville.
-            //if (mot == "*")
-            //    return new List<string>(_villes);
-
+            return _villes
+            .Where(v => v.StartsWith(mot, StringComparison.OrdinalIgnoreCase)|| v.IndexOf(mot, StringComparison.OrdinalIgnoreCase) >= 0)
+            .ToList();
 
 
         }

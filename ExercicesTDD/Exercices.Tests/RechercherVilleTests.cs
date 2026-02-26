@@ -5,6 +5,20 @@ namespace Exercices.Tests;
 [TestClass]
 public class RechercherVilleTests
 {
+    private static readonly List<string> DefaultVilles = new()
+    {
+        "Paris", "Budapest", "Skopje", "Rotterdam", "Valence", "Vancouver",
+        "Amsterdam", "Vienne", "Sydney", "New York", "Londres", "Bangkok",
+        "Hong Kong", "Dubaï", "Rome", "Istanbul"
+    };
+
+    private readonly List<string> _villes;
+
+    public RechercherVilleTests()
+    {
+        _villes = DefaultVilles;
+    }
+
     [TestMethod]
     public void WhenRechercherVille_lessthan2char_ThenNotFoundException()
     {
