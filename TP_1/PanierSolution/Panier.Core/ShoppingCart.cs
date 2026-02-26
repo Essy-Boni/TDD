@@ -30,6 +30,13 @@ namespace Panier.Core
                 ArgumentOutOfRangeException.ThrowIfNegativeOrZero(quantity);
             }
 
+            //Bonus 1 : si un article existe déjà avec ce `name` mais un autre `price`, on lève une exception (ex: `InvalidOperationException`).
+            var SameName = _items.FirstOrDefault(i =>
+            string.Equals(i.Name, name, StringComparison.OrdinalIgnoreCase));
+
+            if (SameName is not null && SameName.Price != price)
+            throw new InvalidOperationException("Un article avec le même nom et un prix différent n'est pas autorisé");
+
             _items.Add(new CartItem(name, price, quantity)); //Le panier permet d'ajouter des articles
 
         }
@@ -50,5 +57,8 @@ namespace Panier.Core
 
             return total * (1m - _discountPercentage.Value / 100m); //Une fois la remise appliquée, le total retourné par `GetTotal()` doit être réduit en conséquence.
         }
+
+        //Bonus 1
+ 
     }
 }
