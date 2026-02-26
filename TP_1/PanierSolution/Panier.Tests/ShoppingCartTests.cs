@@ -12,7 +12,6 @@ public class ShoppingCartTests
     // Étape 1 — Tests du panier vide
     #region
 
-
     [TestMethod] //Un panier neuf contient 0 article.
     public void WhenNewCart_Then0Item()
     {
@@ -164,6 +163,20 @@ public class ShoppingCartTests
     }
 
     #endregion
+
+    //Bonus 1
+    [TestMethod]
+    public void WhenAddItem_SameNameDifferentPrice_ThenExceptionAndCartIntact()
+    {
+        var cart = new ShoppingCart();
+        cart.AddItem("Apple", 1.0m, 1);
+
+        Assert.Throws<InvalidOperationException>(() => cart.AddItem("Apple", 2.0m, 1));
+
+        Assert.AreEqual(1, cart.GetItemCount());
+        Assert.AreEqual(1.0m, cart.GetTotal());
+    }
+
 }
 
 
