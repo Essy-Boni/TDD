@@ -37,6 +37,14 @@ namespace Panier.Core
             if (SameName is not null && SameName.Price != price)
             throw new InvalidOperationException("Un article avec le même nom et un prix différent n'est pas autorisé");
 
+            // Bonus 2: plafond du total avant remise (GrossTotal) != total dans GetTotal() qui prend en compte les remises
+            const decimal MaxTotal = 1000.00m;
+            decimal GrossTotal = _items.Sum(i => i.Price * i.Quantity);
+            decimal NewLineTotal = price * quantity; // variable qui stocke le montant total de l'article qu'on veut ajouter sert uniquement à la vérification suivante. 
+
+            if (GrossTotal + NewLineTotal> MaxTotal)
+                throw new InvalidOperationException("Le total avant remise ne peut excéder 1000");
+
             _items.Add(new CartItem(name, price, quantity)); //Le panier permet d'ajouter des articles
 
         }
@@ -58,7 +66,6 @@ namespace Panier.Core
             return total * (1m - _discountPercentage.Value / 100m); //Une fois la remise appliquée, le total retourné par `GetTotal()` doit être réduit en conséquence.
         }
 
-        //Bonus 1
- 
+
     }
 }
