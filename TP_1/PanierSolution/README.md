@@ -179,3 +179,27 @@ Exemples :
 
 Bon développement.
 
+## Bonus 1 — Nom unique : même nom avec prix différent interdit
+
+**Règle :**
+
+* `name` est un identifiant fonctionnel : si un article existe déjà avec ce `name` mais un autre `price`, on lève une exception (ex: `InvalidOperationException`).
+
+**Tests attendus :**
+
+* AddItem("Apple", 1.0, 1) puis AddItem("Apple", 2.0, 1) → exception
+* état du panier inchangé après exception
+
+
+## Bonus 2 — Plafond du total avant remise
+
+**Règle :**
+
+* Le total brut (avant remise) ne doit pas dépasser `1000.00`.
+* Si un ajout ferait dépasser ce plafond → exception.
+
+**Tests attendus :**
+
+* total à 999.00 puis ajout de 2.00 → exception
+* ajout qui amène exactement à 1000.00 → OK
+* panier inchangé après exception
