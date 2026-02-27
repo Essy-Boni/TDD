@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="BowlingApp.Test/BowlingApp.Test.csproj" />
   <Project Path="BowlingApp/BowlingApp.csproj" />
 </Solution>

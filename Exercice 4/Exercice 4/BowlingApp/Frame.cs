@@ -7,10 +7,12 @@ namespace BowlingApp
 {
     public class Frame 
     {
-        private int score;
+        private int score ;
         private bool _lastFrame;
         private IGenerateur _generateur;
-        private List<Roll> rolls;
+        private List<Roll> rolls = new();
+
+        public int Score => score;
 
         public Frame(IGenerateur generateur, bool lastFrame)
         {

@@ -6,16 +6,17 @@ namespace BowlingApp.Test
 {
     internal class GenerateurMock : IGenerateur
     {
-        private int _value;
+        private readonly int[] _values;
+        private int _index;
 
-        public GenerateurMock(int value)
+        public GenerateurMock(params int[] values)
         {
-            _value = value;
+            _values = values;
         }
 
         public int RandomPin(int max)
         {
-            return _value;
+            return _values[_index++];
         }
     }
 }
