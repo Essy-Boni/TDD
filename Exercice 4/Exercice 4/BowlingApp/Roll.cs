@@ -6,6 +6,11 @@ namespace BowlingApp
 {
     public class Roll
     {
-        private int pins;
+        public Roll(int pins)
+        {
+            Pins = pins;
+        }
+
+        public int Pins { get; }
     }
 }
